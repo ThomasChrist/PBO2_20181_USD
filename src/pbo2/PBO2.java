@@ -10,9 +10,13 @@ package pbo2;
  *
  * @author admin
  */
-public class Test {
+public class PBO2 {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         
-        
     }
+    
 }

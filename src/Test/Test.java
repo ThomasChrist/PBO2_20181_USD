@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package pbo2;
+package Test;
 
 /**
  *
@@ -12,7 +12,6 @@ package pbo2;
  */
 public class Test {
     public static void main(String[] args) {
-        
         
     }
 }
