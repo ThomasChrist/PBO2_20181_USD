@@ -5,7 +5,9 @@
  */
 package Rumah_Sakit;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.SimpleFormatter;
 
 /**
  *
@@ -49,9 +51,10 @@ public class Pasien {
         return usia.getYear() - Tanggal.getYear();
     }
     
-    public String NoRekamMedis(){
+    public void NoRekamMedis(){
         Date tanggal=new Date();
         RekamMedis="yyyyMMdd";
-        return (RekamMedis + getNama().substring(0, 3));
+        SimpleDateFormat tf=new SimpleDateFormat(RekamMedis);
+        System.out.println("Nomor Rekam Medis :" +tf.format(tanggal) + getNama().substring(0, 3));
 }
 }
